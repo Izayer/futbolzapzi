@@ -60,7 +60,6 @@ return [
          * Be sure to add the new language in alphabetical order.
          */
         'langs' => [
-            'eu'    => 'Euskara (Basque)',
             'ar'    => 'العربية (Arabic)',
             'zh'    => '(Chinese Simplified)',
             'zh-TW' => '(Chinese Traditional)',
