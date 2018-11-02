@@ -24,13 +24,14 @@
         "webpatser/laravel-uuid": "^3.0"
     },
     "require-dev": {
-        "beyondcode/laravel-dump-server": "^1.0",
         "barryvdh/laravel-debugbar": "^3.0",
         "barryvdh/laravel-ide-helper": "^2.4",
+        "beyondcode/laravel-dump-server": "^1.0",
         "codedungeon/phpunit-result-printer": "^0.19.10",
         "filp/whoops": "^2.0",
         "friendsofphp/php-cs-fixer": "^2.10",
         "fzaninotto/faker": "^1.4",
+        "laravel/homestead": "^7.18",
         "mockery/mockery": "^1.0",
         "nunomaduro/collision": "^2.0",
         "phpunit/phpunit": "^7.0"
@@ -62,13 +63,13 @@
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
         ],
         "post-create-project-cmd": [
-            "@php artisan key:generate"
+            "@php artisan key:generate --ansi"
         ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan ide-helper:generate",
             "@php artisan ide-helper:meta",
-            "@php artisan package:discover"
+            "@php artisan package:discover --ansi"
         ],
         "clear-all": [
             "@php artisan clear-compiled",
