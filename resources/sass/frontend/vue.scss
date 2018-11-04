@@ -1,0 +1,31 @@
+//LandingVideoComponent
+
+.mbr-arrow-custom {
+    position: absolute;
+    bottom: 132px !important;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    background-color: rgba(80,80,80,0.5);
+    border-radius: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+// .mbr-fullscreen-custom .mbr-overlay-custom {
+//     min-height: calc(100vh - 77px) !important;
+//     padding-top: 0px;
+//     padding-bottom: 0px;
+// }
+
+.mbr-fullscreen-custom{
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    min-height: calc(100vh - 77px);
+}

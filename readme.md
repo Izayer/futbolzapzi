@@ -1,6 +1,2 @@
-## Legazpi Futbol 7
-
-
-### License
-
-MIT: [http://anthony.mit-license.org](http://anthony.mit-license.org)
+# futbolzapzi
+Legazpiko futbol 7 txapelketa

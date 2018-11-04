@@ -18,6 +18,7 @@ window.Vue = Vue;
  */
 
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
+Vue.component('landing-video-component', require('./components/LandingVideoComponent.vue'));
 
 const app = new Vue({
     el: '#app'
